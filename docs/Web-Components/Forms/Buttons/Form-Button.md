@@ -8,7 +8,7 @@ The bare or renderless component has no styles. Perfect to use it inline. This s
 
 ```blade
 <x-form-button :action="route('login')">
-    Login
+    Sign in
 </x-form-button>
 ```
 
@@ -20,7 +20,7 @@ will render
     <input type="hidden" name="_method" value="POST">
 
     <button type="submit">
-        Sign Out
+        Sign in
     </button>
 </form>
 ```
