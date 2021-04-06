@@ -1,6 +1,6 @@
 # Form Button
 
-Renders a button in a form-tag.
+Renders a button including form-tag. Works best with named routes. Can be used inline as default link element.
 
 ## Bare
 
@@ -25,7 +25,7 @@ will render
 </form>
 ```
 
-View the component: [https://tallui.io/docs/alpha/web-components/forms/buttons#bare](https://tallui.io/docs/alpha/web-components/forms/buttons#bare)
+View component: [https://tallui.io/docs/Web-Components/Forms/Buttons/Form-Button#bare](https://tallui.io/docs/Web-Components/Forms/Buttons/Form-Button#bare)
 
 ## Methods
 
@@ -53,7 +53,7 @@ will render
 </form>
 ```
 
-## Theme
+## Style
 
 Use TallUI directives to style your components the easiest way possible.
 
@@ -76,7 +76,7 @@ will render
 </form>
 ```
 
-View the component: [https://tallui.io/docs/alpha/web-components/forms/buttons#theme](https://tallui.io/docs/alpha/web-components/forms/buttons#theme)
+View component: [https://tallui.io/docs/Web-Components/Forms/Buttons/Form-Button#style](https://tallui.io/docs/Web-Components/Forms/Buttons/Form-Button#style)
 
 ### Width
 
@@ -111,7 +111,7 @@ View the component: [https://tallui.io/docs/alpha/web-components/forms/buttons#t
 
 ## Disabled
 
-The simplest disabled-button looks like 
+The simplest disabled-button looks like this:
 
 ```blade
 <x-form-button :action="route('update')" tui="disabled">
@@ -132,7 +132,7 @@ will render
 </form>
 ```
 
-View the component: [https://tallui.io/docs/alpha/web-components/forms/buttons#theme](https://tallui.io/docs/alpha/web-components/forms/buttons#theme)
+View component: [https://tallui.io/docs/Web-Components/Forms/Buttons/Form-Button#disabled](https://tallui.io/docs/Web-Components/Forms/Buttons/Form-Button#disabled)
 
 ## Icon
 
@@ -163,7 +163,7 @@ will render
 </form>
 ```
 
-View the component: [https://tallui.io/docs/alpha/web-components/forms/buttons#theme](https://tallui.io/docs/alpha/web-components/forms/buttons#theme)
+View component: [https://tallui.io/docs/Web-Components/Forms/Buttons/Form-Button#dark](https://tallui.io/docs/Web-Components/Forms/Buttons/Form-Button#dark)
 
 ## Animation
 
@@ -188,7 +188,7 @@ will render
 </form>
 ```
 
-View the component: [https://tallui.io/docs/alpha/web-components/forms/buttons#theme](https://tallui.io/docs/alpha/web-components/forms/buttons#theme)
+View component: [https://tallui.io/docs/Web-Components/Forms/Buttons/Form-Button#animation](https://tallui.io/docs/Web-Components/Forms/Buttons/Form-Button#animation)
 
 ## Scroll animation
 
@@ -213,7 +213,7 @@ will render
 </form>
 ```
 
-View the component: [https://tallui.io/docs/alpha/web-components/forms/buttons#theme](https://tallui.io/docs/alpha/web-components/forms/buttons#theme)
+View component: [https://tallui.io/docs/Web-Components/Forms/Buttons/Form-Button#scroll](https://tallui.io/docs/Web-Components/Forms/Buttons/Form-Button#scroll)
 
 ## Mix and extend
 
